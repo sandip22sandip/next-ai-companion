@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import dotenv from "dotenv";
 import { StreamingTextResponse, LangChainStream } from "ai";
 import { auth, currentUser } from "@clerk/nextjs";

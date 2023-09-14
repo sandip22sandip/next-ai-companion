@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { auth, currentUser } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 
