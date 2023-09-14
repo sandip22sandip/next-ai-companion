@@ -91,7 +91,7 @@ export async function POST(
       input: {
         max_length: 2048,
       },
-      apiKey: "r8_UGF4pbKCurt2WcxB2Dhp4SyZIDW34kI24YxGO",
+      apiKey: process.env.REPLICATE_API_TOKEN,
       callbackManager: CallbackManager.fromHandlers(handlers),
     });
 
